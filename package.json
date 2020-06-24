@@ -8,7 +8,8 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "tsc && cp src/Aspected.scss dist/"
+    "build": "tsc && cp src/Aspected.scss dist/",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
