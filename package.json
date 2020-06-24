@@ -1,0 +1,28 @@
+{
+  "name": "react-aspected",
+  "version": "1.0.0",
+  "description": "A simple React Component for divs with a set aspect ratio",
+  "main": "index.tsx",
+  "scripts": {
+   "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdyxs/ReactAspected.git"
+  },
+  "author": "Paul Sztajer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdyxs/ReactAspected/issues"
+  },
+  "homepage": "https://github.com/pdyxs/ReactAspected#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/react": "^16.9.38",
+    "classnames": "^2.2.6",
+    "react": "^16.13.1"
+  }
+}
