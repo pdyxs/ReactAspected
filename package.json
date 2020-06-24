@@ -4,8 +4,11 @@
   "description": "A simple React Component for divs with a set aspect ratio",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && cp src/Aspected.scss dist/"
   },
   "repository": {
     "type": "git",
