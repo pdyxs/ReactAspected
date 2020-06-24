@@ -2,7 +2,8 @@
   "name": "react-aspected",
   "version": "1.0.0",
   "description": "A simple React Component for divs with a set aspect ratio",
-  "main": "index.tsx",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "scripts": {
    "build": "tsc"
   },
